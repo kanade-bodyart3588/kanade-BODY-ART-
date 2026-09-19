@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>kanade | JAGUA TATTOO・BODY ART</title>
+<meta name="description" content="kanade JAGUA TATTOO・BODY ART。肌に宿る、もうひとつの物語。">
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:#f8f6ef}
+body{font-family:"Yu Mincho","Hiragino Mincho ProN",serif}
+.site{width:100%;max-width:1024px;margin:0 auto;position:relative;line-height:0}
+.design{display:block;width:100%;height:auto}
+.hit{position:absolute;display:block;z-index:5;background:transparent;cursor:pointer}
+/* Navigation / LINE button */
+.home{left:48.8%;top:1.8%;width:4.3%;height:2.4%}
+.about{left:55.2%;top:1.8%;width:6.0%;height:2.4%}
+.price{left:62.0%;top:1.8%;width:5.0%;height:2.4%}
+.gallery{left:69.1%;top:1.8%;width:7.2%;height:2.4%}
+.contact{left:77.0%;top:1.8%;width:7.0%;height:2.4%}
+.line-top{left:82.6%;top:1.1%;width:14.3%;height:4.0%}
+.about-btn{left:8.2%;top:34.2%;width:13.6%;height:3.0%}
+.gallery-btn{left:8.0%;top:69.2%;width:13.8%;height:3.0%}
+.line-bottom{left:11.6%;top:87.5%;width:24.0%;height:3.2%}
+.send{left:68.0%;top:88.2%;width:27.0%;height:3.0%}
+/* Invisible section targets keep navigation functional while preserving the supplied visual exactly. */
+.target{position:absolute;left:0;width:100%;height:1px;z-index:1;pointer-events:none}
+#about-target{top:19%} #price-target{top:38%} #gallery-target{top:59%} #contact-target{top:79%}
+.visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.fixed-line{display:none;position:fixed;right:16px;bottom:16px;z-index:20;background:#18334b;color:#fff;border-radius:999px;padding:12px 18px;font-size:13px;line-height:1;box-shadow:0 5px 20px rgba(0,0,0,.18);text-decoration:none}
+@media (max-width:700px){
+  .fixed-line{display:block}
+  .site{max-width:none}
+  /* Keep the design image exact; transparent hit areas scale with it. */
+}
+</style>
+</head>
+<body>
+<main class="site" aria-label="kanade JAGUA TATTOO・BODY ART ホームページ">
+  <img class="design" src="kanade-design.jpg" alt="kanade JAGUA TATTOO・BODY ART ホームページデザイン">
+  <a class="hit home" href="#top" aria-label="HOME"></a>
+  <a class="hit about" href="#about-target" aria-label="ABOUT"></a>
+  <a class="hit price" href="#price-target" aria-label="PRICE"></a>
+  <a class="hit gallery" href="#gallery-target" aria-label="GALLERY"></a>
+  <a class="hit contact" href="#contact-target" aria-label="CONTACT"></a>
+  <a class="hit line-top" href="https://lin.ee/wXgsume" target="_blank" rel="noopener" aria-label="LINEで予約する"></a>
+  <a class="hit about-btn" href="#about-target" aria-label="ABOUT US"></a>
+  <a class="hit gallery-btn" href="#gallery-target" aria-label="レタリング一覧を見る"></a>
+  <a class="hit line-bottom" href="https://lin.ee/wXgsume" target="_blank" rel="noopener" aria-label="LINEで予約する"></a>
+  <a class="hit send" href="https://lin.ee/wXgsume" target="_blank" rel="noopener" aria-label="LINEで予約・相談する"></a>
+  <span id="top" class="target" style="top:0"></span>
+  <span id="about-target" class="target"></span>
+  <span id="price-target" class="target"></span>
+  <span id="gallery-target" class="target"></span>
+  <span id="contact-target" class="target"></span>
+  <p class="visually-hidden">
+    kanade JAGUA TATTOO・BODY ART。ご予約はLINE公式アカウントから。
+    札幌・清田。料金表、レタリング一覧、出張施術のご案内。
+  </p>
+</main>
+<a class="fixed-line" href="https://lin.ee/wXgsume" target="_blank" rel="noopener">LINEで予約する →</a>
+</body>
+</html>
